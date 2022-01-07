@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1641553808, 668470859]
+build_end_time: [1641553809, 422425031]
+inputs:
+  "/Users/khitrind/Workspaces/CardWorkout/CardWorkout/AppDelegate.swift": [1641543650, 156909704]
+  "/Users/khitrind/Workspaces/CardWorkout/CardWorkout/CWButton.swift": [1641549594, 662967681]
+  "/Users/khitrind/Workspaces/CardWorkout/CardWorkout/CardDeck.swift": [1641553805, 917952537]
+  "/Users/khitrind/Workspaces/CardWorkout/CardWorkout/CardSelectionVC.swift": [1641553805, 928855895]
+  "/Users/khitrind/Workspaces/CardWorkout/CardWorkout/RulesVC.swift": [1641552926, 303025245]
+  "/Users/khitrind/Workspaces/CardWorkout/CardWorkout/SceneDelegate.swift": [1641549282, 348999261]
