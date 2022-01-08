@@ -235,8 +235,8 @@ SWIFT_CLASS("_TtC11CardWorkout8CWButton")
 
 SWIFT_CLASS("_TtC11CardWorkout15CardSelectionVC")
 @interface CardSelectionVC : UIViewController
-- (void)startTimer;
 - (void)stopTimer;
+- (void)resetTimer;
 - (void)showRandomCard;
 - (void)viewDidLoad;
 - (void)presentRulesVC;

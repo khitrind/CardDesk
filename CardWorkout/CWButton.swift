@@ -11,24 +11,23 @@ class CWButton: UIButton {
 
   override init(frame: CGRect) {
     super.init(frame: frame)
-    confgure()
   }
 
   required init?(coder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
   }
 
-  init(backgroundColor: UIColor, title: String) {
+  init(color: UIColor, title: String, iconName: String) {
     super.init(frame: .zero)
-    self.backgroundColor = backgroundColor
-    setTitle(title, for: .normal)
-    confgure()
-  }
 
-  func confgure() {
-    layer.cornerRadius = 8
-    titleLabel?.font = .systemFont(ofSize: 19, weight: .bold)
-    setTitleColor(.white, for: .normal)
+    configuration = .tinted()
+    configuration?.baseForegroundColor = color
+    configuration?.baseBackgroundColor = color
+    configuration?.cornerStyle = .medium
+    configuration?.title = title
+    configuration?.image = UIImage(systemName: iconName)
+    configuration?.imagePadding = 5
+    configuration?.imagePlacement = .leading
     translatesAutoresizingMaskIntoConstraints = false
   }
 

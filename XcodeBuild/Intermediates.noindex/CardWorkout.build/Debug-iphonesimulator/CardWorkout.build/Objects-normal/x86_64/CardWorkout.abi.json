@@ -1750,13 +1750,12 @@
             }
           ],
           "declKind": "Func",
-          "usr": "c:@M@CardWorkout@objc(cs)CardSelectionVC(im)startTimer",
+          "usr": "s:11CardWorkout0A11SelectionVCC10startTimeryyF",
           "mangledName": "$s11CardWorkout0A11SelectionVCC10startTimeryyF",
           "moduleName": "CardWorkout",
           "isOpen": true,
           "declAttributes": [
-            "Custom",
-            "ObjC"
+            "Custom"
           ],
           "funcSelfKind": "NonMutating"
         },
@@ -1774,6 +1773,28 @@
           "declKind": "Func",
           "usr": "c:@M@CardWorkout@objc(cs)CardSelectionVC(im)stopTimer",
           "mangledName": "$s11CardWorkout0A11SelectionVCC9stopTimeryyF",
+          "moduleName": "CardWorkout",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "resetTimer",
+          "printedName": "resetTimer()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@CardWorkout@objc(cs)CardSelectionVC(im)resetTimer",
+          "mangledName": "$s11CardWorkout0A11SelectionVCC10resetTimeryyF",
           "moduleName": "CardWorkout",
           "isOpen": true,
           "declAttributes": [
@@ -2223,7 +2244,7 @@
         {
           "kind": "Constructor",
           "name": "init",
-          "printedName": "init(backgroundColor:title:)",
+          "printedName": "init(color:title:iconName:)",
           "children": [
             {
               "kind": "TypeNominal",
@@ -2242,37 +2263,22 @@
               "name": "String",
               "printedName": "Swift.String",
               "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
             }
           ],
           "declKind": "Constructor",
-          "usr": "s:11CardWorkout8CWButtonC15backgroundColor5titleACSo7UIColorC_SStcfc",
-          "mangledName": "$s11CardWorkout8CWButtonC15backgroundColor5titleACSo7UIColorC_SStcfc",
+          "usr": "s:11CardWorkout8CWButtonC5color5title8iconNameACSo7UIColorC_S2Stcfc",
+          "mangledName": "$s11CardWorkout8CWButtonC5color5title8iconNameACSo7UIColorC_S2Stcfc",
           "moduleName": "CardWorkout",
           "declAttributes": [
             "Custom"
           ],
           "init_kind": "Designated"
-        },
-        {
-          "kind": "Function",
-          "name": "confgure",
-          "printedName": "confgure()",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Void",
-              "printedName": "()"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "s:11CardWorkout8CWButtonC8confgureyyF",
-          "mangledName": "$s11CardWorkout8CWButtonC8confgureyyF",
-          "moduleName": "CardWorkout",
-          "isOpen": true,
-          "declAttributes": [
-            "Custom"
-          ],
-          "funcSelfKind": "NonMutating"
         }
       ],
       "declKind": "Class",
